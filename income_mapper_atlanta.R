@@ -5,6 +5,9 @@ library(leaflet)
 library(janitor)
 
 # Random web page with Zip Code / Income for Atlanta
+# There might well be more authoritative sources but the 
+# student found this one and wanted to parse it.
+
 url <- "http://localistica.com/usa/ga/atlanta/zipcodes/most-populated-zipcodes/"
 
 # Get a specific table from the above URL
